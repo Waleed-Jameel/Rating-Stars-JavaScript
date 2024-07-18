@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       .btn{
+         width: 40px;
+        height: 40px; 
+        border:2px solid black;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+         
+         background-color: rgb(0, 0, 0);
+       }
+       .btn1{
+         width: 40px;
+        height: 40px; 
+        border:2px solid black;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+         
+         background-color: rgb(0, 0, 0);
+       }
+       .btn2{
+         width: 40px;
+        height: 40px; 
+        border:2px solid black;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+         
+         background-color: rgb(0, 0, 0);
+       }
+       .btn3{
+         width: 40px;
+        height: 40px; 
+        border:2px solid black;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+         
+         background-color: rgb(0, 0, 0);
+       }
+       .btn4{
+         width: 40px;
+        height: 40px; 
+        border:2px solid black;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+         
+         background-color: rgb(0, 0, 0);
+       }
+       .clear{
+        background-color: blueviolet;
+        color: white;
+        font-size: 18px;
+        border-radius: 3px;
+        width: 170px;
+        height: 40px; 
+        margin: 30px;
+       }
+    </style>
+</head>
+<body>
+   
+    <button class="btn"></button>
+    <button class="btn1"></button>
+    <button class="btn2"></button>
+    <button class="btn3"></button>
+    <button class="btn4"></button>
+    <br>
+    <button class="clear">Again Rating Star</button>
+    <script>
+        let container = document.getElementsByClassName("conta") ;
+        let btn = document.querySelector(".btn") ;
+        let btn1 = document.querySelector(".btn1") ;
+        let btn2 = document.querySelector(".btn2") ;
+        let btn3 = document.querySelector(".btn3") ;
+        let btn4 = document.querySelector(".btn4") ;
+        let clear = document.querySelector(".clear") ;
+
+        btn.addEventListener('click',()=>{
+           btn.style.backgroundColor = 'yellow' ;
+        })
+
+        btn1.addEventListener('click',()=>{
+            btn.style.backgroundColor = 'yellow' ;
+           btn1.style.backgroundColor = 'yellow' ;
+        })
+
+        btn2.addEventListener('click',()=>{
+            btn.style.backgroundColor = 'yellow' ;
+           btn1.style.backgroundColor = 'yellow' ;
+           btn2.style.backgroundColor = 'yellow' ;
+        })
+
+        btn3.addEventListener('click',()=>{
+            btn.style.backgroundColor = 'yellow' ;
+           btn1.style.backgroundColor = 'yellow' ;
+           btn2.style.backgroundColor = 'yellow' ;
+           btn3.style.backgroundColor = 'yellow' ;
+        })
+
+        btn4.addEventListener('click',()=>{
+            btn.style.backgroundColor = 'yellow' ;
+           btn1.style.backgroundColor = 'yellow' ;
+           btn2.style.backgroundColor = 'yellow' ;
+           btn3.style.backgroundColor = 'yellow' ;
+           btn4.style.backgroundColor = 'yellow' ;
+        })
+
+        clear.addEventListener('click',()=>{
+            btn.style.backgroundColor = 'black' ;
+            btn1.style.backgroundColor = 'black' ;
+            btn2.style.backgroundColor = 'black' ;
+            btn3.style.backgroundColor = 'black' ;
+            btn4.style.backgroundColor = 'black' ;
+        })
+    </script>
+</body>
+</html>
